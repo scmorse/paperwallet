@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <title>
+    Paper Wallet
+  </title>
+  <style>
+    img {
+      width: 600px;
+      height: 600px;
+    }
+
+    .section img, .section p {
+      text-align: center;
+    }
+    .priv.section {
+      float: left;
+    }
+    .pub.section {
+      float: right;
+    }
+
+    span.key {
+      width: 200px;
+      display: inline-block;
+    }
+
+    * {
+      font-family: monospace;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Paper Wallet</h2>
+  <h3>
+    <span class="key">Owner: </span>Stephen Morse
+  </h3>
+  <h3>
+    <span class="key">Generated on: </span>{{ today }}
+  </h3>
+  <h3>
+    <span class="key">Last known amount: </span>{{ amount }} BTC
+  </h3>
+  <div class="priv section">
+    <img src="{{ privPicLoc }}">
+    <p>{{ PrivTitle }}</p>
+  </div>
+  <div class="pub section">
+    <img src="{{ addrPicLoc }}">
+    <p>{{ PubTitle }}</p>
+  </div>
+</body>
+
+</html>

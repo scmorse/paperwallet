@@ -1,0 +1,24 @@
+{
+  "name": "paperwallet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pw.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scmorse/paperwallet.git"
+  },
+  "author": "Stephen Morse <stephencalebmorse@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scmorse/paperwallet/issues"
+  },
+  "homepage": "https://github.com/scmorse/paperwallet#readme",
+  "dependencies": {
+    "qr-image": "^3.1.0",
+    "swig": "^1.4.2",
+    "wif": "^1.2.1"
+  }
+}
